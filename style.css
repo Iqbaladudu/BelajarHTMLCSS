@@ -1,0 +1,30 @@
+#film-list {
+    color: darkgoldenrod;
+}
+
+#title {
+   color: crimson; 
+}
+
+.barat {
+    color: cadetblue;
+}
+
+.korea {
+    color: palevioletred;
+}
+
+.malaysia {
+    color: darkblue;
+}
+
+.fav-film {
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#dollar {
+    color: brown;
+    display: inline;
+}

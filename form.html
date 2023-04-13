@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h3>Buat Akun</h3>
+    <form>
+        <div>
+            <label for="name">Nama:</label>
+            <input type="text" required name="name" placeholder="Masukkan Nama Kamu" />
+        </div>
+        <div>
+           <label for="email">Surel:</label>
+           <input type="email" name="email" required placeholder="iqbal.adudu@gmail.com" />
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male"> Laki-Laki
+            <input type="radio" name="gender" value="female"> Perempuan
+        </div>
+        <div>
+            <label for="phone">No Wa:</label>
+            <input type="number" required placeholder="+20xxxxxxx" />
+        </div>
+        <div>
+            <label for="kelas">Kelas:</label>
+            <input type="radio" name="kelas" value="1"> 1
+            <input type="radio" name="kelas" value="2"> 2
+        </div>
+        <div>
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" name="password" required />
+        </div>
+        <div>
+            <label for="country">Negara Asal:</label>
+            <select name="country">
+                <option value="mesir">Mesir</option>
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+            </select>
+        </div>
+        <div>
+            <label for="agree">Apakah setuju dengan S&K Kami</label>
+            <input type="checkbox" name="agree" checked> Ya
+        </div>
+        <div>
+            <input type="submit" value="Daftar">
+        </div>
+    </form>
+</body>
+</html>
